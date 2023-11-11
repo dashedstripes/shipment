@@ -1,0 +1,42 @@
+# Ignore OS-specific files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore Python standard stuff
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Reports from pytest
+.pytest_cache/
+
+# Ignore zed files
+.zed/
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore build and distribution directories
+dist/
+build/
+
+# Ignore virtual environment directories
+venv/
+ENV/
+
+# Ignore jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files for PyCharm and VS Code
+.idea/
+.vscode/
+*.iml
+modules.xml
+*.eml
